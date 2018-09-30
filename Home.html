@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="HomeJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="HomeCSS.css">
+
+    <title>Social network</title>
+	<meta charset="utf-8" />
+
+</head>
+<body>
+    <div>
+        <h3>People</h3>
+        <ul id="listOfPeople"></ul>
+    </div>
+
+    <script>
+        showAllPeople();
+    </script>
+
+    <table id="tablePeople">
+        <caption>
+            Id of chosen person: 
+            <p id="idOfChosenPerson"></p> <br />
+            Option:
+            <p id="chosenOption"></p>
+        </caption>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Firstname</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody id="tBody">
+
+        </tbody>
+    </table>
+
+</body>
+</html>

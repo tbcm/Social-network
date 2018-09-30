@@ -1,0 +1,26 @@
+﻿#listOfPeople li {
+    padding: 5px;
+}
+
+#idOfChosenPerson, #chosenOption {
+    display: inline;
+}
+
+#tablePeople {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#tablePeople th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.buttons {
+    display: inline;
+}
+
+
